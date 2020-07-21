@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    text-align: center;
+    position: relative;
+    padding: 20px;
+}
+
+
+#main_container{
+    width: 70%;
+    height: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+    display: grid;
+    box-sizing: border-box
+}
+
+
+.itemsBtn{
+    display: block;
+    text-align: center;
+    margin: 20px;
+}
+
+.total-btn{
+    text-align: center;
+    margin:inherit;
+}
+
+
+input{
+    box-sizing: border-box;
+    display: inline-block;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: aqua;
+    width: 100px;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight:600;
+}
+
+input:hover{
+    width: 120px;
+    height: 2.5em;
+    border: 2px solid green;
+    background-color: lightseagreen;
+    color: white;
+}
+
+div #items-display{
+    text-align: right !important;
+}
+
+h1{
+    background-color: aqua;
+}
+
+#items-display p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: whitesmoke;
+    font-size: 20px;
+    text-align: right !important;
+}
+
+div p#total_bill{
+    font-size: 35px;
+}
+#totalpurchased{
+    float: left;
+}
+
+h3, ul{
+    display: block;
+    list-style-type: none;
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+    align-content: flex-start;
+}
+ul li{
+    padding-bottom: 5px;
+    font-size: 15px;
+    font-weight: 700;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple POS App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="main_container">
+        <h1>XYZ Stores</h1>
+        Welcome to XYZ Store, your on stop shop for quality an affordable groceries and food items
+        <article>
+            <h3>Price (Naira)</h3>
+            <ul>
+                <li>Bread: 300</li>
+                <li>Soap: 150</li>
+                <li>Perfume: 1500</li>
+                <li>Butter: 400</li>
+                <li>Gin: 1300</li>
+                <li>Cake: 3000</li>
+            </ul>
+
+        </article>
+
+        <div id="items-display">
+            <p id="bread_display" class="item-btn">0</p>
+            <p id="soap_display" class="item_btn">0</p>
+            <p id="perfume_display" class="item_btn">0</p>
+            <p id="butter_display" class="item_btn">0</p>
+            <p id="cake_display" class="item_btn">0</p>
+            <p id="gin_display" class="item_btn"></p>
+            <p id="cleared" class="item_btn"></p>
+            <br>
+            <hr>
+            <p id="total_bill">0</p>
+        </div>
+        <br>
+        <div id="top-row" class="itemsBtn">
+            <tr>
+                <td>
+                    <input type="button" value="Bread" id="bread">
+                    <input type="button" value="Soap" id="soap">
+                    <input type="button" value="Perfume" id="perfume">
+                    <input type="button" value="Butter" id="butter">
+                    <input type="button" value="Gin" id="gin">
+                    <input type="button" value="Cake" id="cake">
+                    <input type="button" value="Space" id="space">
+                    <input type="button" value="Clear" id="clear">
+                    <input type="button" value="Plus +" id="plus">
+                </td>
+            </tr>
+        </div>
+
+        <div class="total-btn">
+            <tr>
+                <td>
+
+                    <input type="button" value="Total" id="addtotal">
+
+                </td>
+            </tr>
+        </div>
+
+    </div>
+    </div>
+    </div>
+    <script src="app.js"></script>
+    <!-- <script src="app1.js"></script> --> 
+</body>
+
+</html>
